@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>BookMyShow</title>
+    <link rel="icon" type="image/x-icon" href="img/fav.png">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- External JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
+</head>
+
+<body>
+
+    <!-- Wrapper -->
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <nav class="sidenavbar">
+                <h1>Hey!</h1>
+            </nav>
+
+            <nav class="sidesubnavbar">
+                <img src="img/rewards.webp">
+                <p>Unlock special offers & great benefits</p>
+                <button class="login" onclick="document.getElementById('id01').style.display='block'">Login / Register</button>
+            </nav>
+
+            <!-- Sidebar Links -->
+            <a href="#"><div class="lefticon"><ion-icon name="notifications-outline"></ion-icon></div><div class="text">Notifications</div></a>
+            <!-- More sidebar links as needed -->
+        </nav>
+
+        <!-- Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Content -->
+        <div class="content">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <img src="img/logo.png" class="brand-logo" alt="" />
+                <div class="input">
+                    <ion-icon name="search"></ion-icon>
+                    <input class="search" placeholder="Search for Movies, Events, Plays, Sports, and Activities">
+                </div>
+                <button class="signin" onclick="document.getElementById('id01').style.display='block'">Signin</button>
+            </nav>
+
+            <!-- Subnavbar -->
+            <nav class="subnavbar">
+                <ul class="navitem">
+                    <li><a href="#Movies">Movies</a></li>
+                    <!-- More navbar items as needed -->
+                </ul>
+            </nav>
+
+            <!-- Carousel -->
+            <div class="carousel-container">
+                <div class="carousel">
+                    <!-- Carousel Content -->
+                </div>
+            </div>
+
+            <!-- Movies List -->
+            <h1 class="title">Recommended Movies</h1>
+            <div class="movies-list">
+                <div class="card-container">
+                    <div class="movie">
+                        <div class="card">
+                            <img src="img/poster/poster1.jpg" class="card-img" alt="">
+                            <div class="card-body"><ion-icon name="heart-sharp"></ion-icon><p>93% &ThinSpace; 928 votes</p></div>
+                        </div>
+                        <h3>Theerppu</h3><p class="detail">Drama/Thriller</p>
+                    </div>
+                    <!-- More movie cards as needed -->
+                </div>
+            </div>
+
+            <!-- Entertainment List -->
+            <h1 class="title-enter">The Best of Entertainment</h1>
+            <div class="enter-list">
+                <div class="enter-container">
+                    <div class="card"><img src="img/enter/enter1.webp" class="card-img" alt=""></div>
+                    <!-- More entertainment cards as needed -->
+                </div>
+            </div>
+
+        </div> <!-- End Content -->
+    </div> <!-- End Wrapper -->
+
+    <!-- External Scripts -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/data.js"></script>
+
+</body>
+
+</html>
